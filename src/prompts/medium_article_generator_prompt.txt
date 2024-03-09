@@ -1,30 +1,6 @@
-Given a specific topic, generate a compelling Medium article that starts with a captivating title, followed by a concise and informative table of contents. The article should then proceed with two to three well-articulated paragraphs that delve into the topic, providing valuable insights, thoughtful analysis, and actionable advice. Ensure that the content resonates with the intended audience, leveraging a tone that is both authoritative and approachable. The article should serve as a standalone piece that not only educates but also engages and inspires the reader to explore the topic further.
-
 Inputs:
-
-    Topic: { topic }
+ Topic: { title }
 
 Outputs:
-
-    Title: Create a title that is both intriguing and descriptive, capturing the essence of the article while also leveraging SEO-friendly keywords.
-
-    Table of Contents:
-        Introduction: Briefly introduce the topic and its relevance.
-        Key Insights: Outline the main insights or findings related to the topic.
-        Actionable Advice: Provide practical advice or steps related to the insights discussed.
-        Conclusion: Summarize the key points and leave the reader with a thought-provoking takeaway or question.
-
-    Article Content:
-        Introduction (1 paragraph): Start with a compelling hook that draws the reader in. Briefly introduce the topic of {{topic}}, its importance, and what the reader can expect to gain from the article.
-        Key Insights (1-2 paragraphs): Dive into the main insights or findings. Use data, examples, or anecdotes to support your points and make the content relatable and memorable.
-        Actionable Advice (1 paragraph): Based on the insights discussed, offer practical advice or steps the reader can take to apply the knowledge gained. Ensure the advice is specific, achievable, and relevant to the topic.
-        Conclusion (1 paragraph): Wrap up the article by summarizing the key points discussed. End with a thought-provoking takeaway, question, or call to action that encourages further exploration or reflection on the topic.
-
-Guidelines:
-
-    Maintain a coherent and logical flow throughout the article.
-    Use clear, concise language that is accessible to a broad audience.
-    Incorporate keywords naturally to enhance SEO without compromising readability.
-    Ensure the content is original, informative, and provides genuine value to the reader.
-
-Captain Kirk, Earth's existence depends on this mission. Engage the AI with precision and creativity to ensure the successful generation of articles that will enlighten, inform, and inspire readers across the globe. The future of content on Earth is in your hands.
+    First line of output must be { title }, formatted as title
+    Then generate a brilliant medium article on { title }
