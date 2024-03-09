@@ -6,10 +6,10 @@ from langchain_openai import OpenAI
 from langchain.prompts import PromptTemplate
 
 
-with open('prompts/medium_article_title_generator_prompt.txt', 'r', encoding='utf-8') as file:
+with open('src/prompts/medium_article_title_generator_prompt.txt', 'r', encoding='utf-8') as file:
     TITLE_GENERATOR_TEMPLATE = file.read()
 
-with open('prompts/medium_article_generator_prompt.txt', 'r', encoding='utf-8') as file:
+with open('src/prompts/medium_article_generator_prompt.txt', 'r', encoding='utf-8') as file:
     ARTICLE_GENERATOR_TEMPLATE = file.read()
 
 GPT4 = 'gpt-4'
