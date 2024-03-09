@@ -1,5 +1,5 @@
 import streamlit as st
-from MediumArticleGenerator import get_llm, get_complete_output
+from MediumArticleGenerator import get_complete_output
 
 
 APPLET_TITLE = 'Medium Article Generator'
